@@ -53,6 +53,43 @@ a.btn.btn-outline-secondary.text-white {
     line-height: 1.25rem;
     margin-bottom: 0;
 }
+.img-fluid {
+    max-width: 83%;
+    height: auto;
+}
+.sec-hed{
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+    --tw-text-opacity: 1;
+    font-weight: 600;
+    margin-top: 1.25rem;
+    margin-bottom: 0.75rem;
+}
+.clr{
+    color: rgb(249 115 22 / var(--tw-text-opacity));
+}
+.clr_1{
+    color: rgb(244 63 94 / var(--tw-text-opacity));
+}
+.clr_2{
+    color: rgb(20 184 166 / var(--tw-text-opacity));
+}
+.clr_3{
+    color: rgb(59 130 246 / var(--tw-text-opacity));
+}
+.sec-hed-para{
+    font-weight: 600;
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+    --tw-text-opacity: 1;
+    color: hsl(var(--n) / 1);
+}
+.sec-hed-text{
+    width: 66%;
+    text-align: justify;
+    --tw-text-opacity: 1;
+    color: hsl(var(--n) / 1);
+}
 .hov-eff:hover{
     animation: pulse 2s cubic-bezier(.4,0,.6,1) infinite;
 }
