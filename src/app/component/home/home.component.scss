@@ -63,18 +63,22 @@ a.btn.btn-outline-secondary.text-white {
     --tw-text-opacity: 1;
     font-weight: 600;
     margin-top: 1.25rem;
-    margin-bottom: 0.75rem;
+    margin-bottom: 5px;
 }
 .clr{
+    --tw-text-opacity: 1;
     color: rgb(249 115 22 / var(--tw-text-opacity));
 }
 .clr_1{
+    --tw-text-opacity: 1;
     color: rgb(244 63 94 / var(--tw-text-opacity));
 }
 .clr_2{
+    --tw-text-opacity: 1;
     color: rgb(20 184 166 / var(--tw-text-opacity));
 }
 .clr_3{
+    --tw-text-opacity: 1;
     color: rgb(59 130 246 / var(--tw-text-opacity));
 }
 .sec-hed-para{
@@ -83,6 +87,7 @@ a.btn.btn-outline-secondary.text-white {
     line-height: 1.75rem;
     --tw-text-opacity: 1;
     color: hsl(var(--n) / 1);
+    margin-bottom: 5px;
 }
 .sec-hed-text{
     width: 66%;
@@ -90,6 +95,6 @@ a.btn.btn-outline-secondary.text-white {
     --tw-text-opacity: 1;
     color: hsl(var(--n) / 1);
 }
-.hov-eff:hover{
-    animation: pulse 2s cubic-bezier(.4,0,.6,1) infinite;
+.text-decoration-none:hover{
+    text-decoration: underline !important;
 }
