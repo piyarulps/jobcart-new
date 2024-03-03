@@ -95,6 +95,37 @@ a.btn.btn-outline-secondary.text-white {
     --tw-text-opacity: 1;
     color: hsl(var(--n) / 1);
 }
+.commn-subheader{
+    text-align: center;
+    font-size: 1.5rem;
+    line-height: 2rem;
+    --tw-text-opacity: 1;
+    color: rgb(75 85 99 / var(--tw-text-opacity));
+}
+.body-header{
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+    font-weight: 600;
+    --tw-text-opacity: 1;
+    color: hsl(var(--n) / 1);
+    text-align: center;
+}
+.para-text{
+    width: 50%;
+    --tw-text-opacity: 1;
+    color: rgb(107 114 128 / var(--tw-text-opacity));
+text-align: center;
+margin-bottom: 0;
+}
+.pt-pb{
+padding-top: 2.5rem;
+padding-bottom: 2.5rem;
+
+}
+.bg-clr{
+    --tw-bg-opacity: 1;
+    background-color: rgb(240 253 244 / var(--tw-bg-opacity));
+}
 .text-decoration-none:hover{
     text-decoration: underline !important;
 }
