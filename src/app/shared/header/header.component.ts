@@ -64,5 +64,8 @@ export class HeaderComponent {
     }
   }
 
-
+  openURl(value:string){
+    // the url,html tag should be called from here , how ?
+    window.open(this.appURL+value);
+    }
 }

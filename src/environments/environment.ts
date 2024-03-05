@@ -1,7 +1,7 @@
 export const environment = {
   production: false,
 
-  app_url     : "http://localhost:2020/",
+  app_url     : "https://app.jobcart.ca/",
   api_url     : "",
   assets_url  : "https://jcassets.jobcart.ca/",
   pdf_url     : "https://pdf.jobcart.ca",
@@ -11,7 +11,7 @@ export const environment = {
   jwt_api     : "",
   auth_api    : "",
   acc_api     : "",
-  post_api    : "",
+  post_api    : "https://apis.jobcart.ca/",
   global_api  : "",
   blog_api    : "",
 
