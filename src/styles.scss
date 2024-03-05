@@ -72,6 +72,9 @@ body {
     .img-position{
         text-align: center !important;
     }
+    .dropdown-menu li .dropdown-item {
+        white-space: normal;
+      }
 }
 
 @media screen and (max-width:1198px) {}
