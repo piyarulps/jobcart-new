@@ -12,7 +12,7 @@ export class HeaderComponent {
   winWidth = 0;
   private clickOutsideListener!: () => void;
   navbarfixed: boolean = false;
-
+  dropshow:boolean=false
 
   constructor(private elementRef: ElementRef, private renderer: Renderer2) { }
 
@@ -30,7 +30,6 @@ export class HeaderComponent {
       }
     });
   }
-
 
   @HostListener('window:resize', ['$event'])
   onResize() {

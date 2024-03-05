@@ -21,10 +21,12 @@
     "@fortawesome/fontawesome-svg-core": "^6.5.1",
     "@ng-bootstrap/ng-bootstrap": "^16.0.0-rc.2",
     "@popperjs/core": "^2.11.8",
+    "@types/aos": "^3.0.7",
     "aos": "^2.3.4",
     "bootstrap": "^5.3.3",
     "bootstrap-icons": "^1.11.3",
     "npm": "^10.5.0",
+    "popper.js": "^1.16.1",
     "rxjs": "~7.8.0",
     "tslib": "^2.3.0",
     "zone.js": "~0.14.2"

@@ -2,7 +2,7 @@
 <section style="background-color: #267f6a;">
   <div class="container" >
     <div class="row pt-4 align-items-center" style="padding-bottom: 5rem;">
-      <div class="col-md-4">
+      <div class="col-md-4" data-aos="zoom-in-up" data-aos-duration="1000">
         <h3 class="section-para">
           We work better together with big ideas and great talent.
         </h3>
@@ -10,8 +10,8 @@
         <a href="{{appUrl}}/auth/sign-in/" class="btn btn-outline-secondary text-white">Get Started</a>
           <a href="{{url}}" target="_blank"><img src="/assets/jc-qr-code-my-white.png" class="img-fluid" /></a>
       </div>
-      <div class="col-md-8 text-end">
-        <img class="hov-eff" src="/assets/large.png" alt="">
+      <div class="col-md-8 text-end animated flash infinite">
+        <img class="hov-eff " data-aos="zoom-in-up" data-aos-duration="1000" src="/assets/large.png" alt="">
         
       </div>
     
@@ -30,22 +30,22 @@
         Jobs By Category
       </h3>
     </div>
-    <div class="row pt-3 pb-3 row-cols-1 row-cols-sm-2 row-cols-md-5 justify-content-center">
-      <div class="col mb-3">
+    <div class="row pt-3 pb-3 row-cols-1 row-cols-sm-2 row-cols-md-5 justify-content-center" data-aos="zoom-in-up" data-aos-duration="1000"> 
+      <div (click)="goToJobs(cat.catId, 'jobs')" *ngFor="let cat of catList"  class="col mb-3" data-aos="zoom-in-down" data-aos-duration="1000">
         <div class="category-box">
-          <p class="category-header">Deals</p>
-          <p class="category-text">10 Active Posts</p>
+          <p class="category-header">{{cat.catTitle}}</p>
+          <p class="category-text">{{cat.activeJobs}} Active Posts</p>
         </div>
       </div>
      
-      <div class="col mb-3">
+      <div class="col mb-3"  data-aos="zoom-in-down" data-aos-duration="1000">
         <div class="category-box">
         <p class="category-header">Accommodation</p>
         <p class="category-text">10 Active Posts</p>
       </div>
       </div>
      
-      <div class="col mb-3">
+      <div class="col mb-3"  data-aos="zoom-in-down" data-aos-duration="1000">
         <div class="category-box">
         <p class="category-header">CNC Related Jobs</p>
         <p class="category-text">10 Active Posts</p>
@@ -53,34 +53,34 @@
       </div>
 
     
-      <div class="col mb-3">
+      <div class="col mb-3"  data-aos="zoom-in-down" data-aos-duration="1000">
         <div class="category-box">
         <p class="category-header">Industrial and Building</p>
         <p class="category-text">10 Active Posts</p>
       </div>
       </div>
       
-      <div class="col mb-3">
+      <div class="col mb-3"  data-aos="zoom-in-down" data-aos-duration="1000">
         <div class="category-box">
         <p class="category-header">Marketing And Sales</p>
         <p class="category-text">10 Active Posts</p>
       </div>
       </div>
-      <div class="col mb-3">
+      <div class="col mb-3"  data-aos="zoom-in-down" data-aos-duration="1000">
         <div class="category-box">
           <p class="category-header">Deals</p>
           <p class="category-text">10 Active Posts</p>
         </div>
       </div>
      
-      <div class="col mb-3">
+      <div class="col mb-3"  data-aos="zoom-in-down" data-aos-duration="1000">
         <div class="category-box">
         <p class="category-header">Accommodation</p>
         <p class="category-text">10 Active Posts</p>
       </div>
       </div>
      
-      <div class="col mb-3">
+      <div class="col mb-3"  data-aos="zoom-in-down" data-aos-duration="1000">
         <div class="category-box">
         <p class="category-header">CNC Related Jobs</p>
         <p class="category-text">10 Active Posts</p>
@@ -88,34 +88,34 @@
       </div>
 
     
-      <div class="col mb-3">
+      <div class="col mb-3"  data-aos="zoom-in-down" data-aos-duration="1000">
         <div class="category-box">
         <p class="category-header">Industrial and Building</p>
         <p class="category-text">10 Active Posts</p>
       </div>
       </div>
       
-      <div class="col mb-3">
+      <div class="col mb-3"  data-aos="zoom-in-down" data-aos-duration="1000">
         <div class="category-box">
         <p class="category-header">Marketing And Sales</p>
         <p class="category-text">10 Active Posts</p>
       </div>
       </div>
-      <div class="col mb-3">
+      <div class="col mb-3"  data-aos="zoom-in-down" data-aos-duration="1000">
         <div class="category-box">
           <p class="category-header">Deals</p>
           <p class="category-text">10 Active Posts</p>
         </div>
       </div>
      
-      <div class="col mb-3">
+      <div class="col mb-3"  data-aos="zoom-in-down" data-aos-duration="1000">
         <div class="category-box">
         <p class="category-header">Accommodation</p>
         <p class="category-text">10 Active Posts</p>
       </div>
       </div>
      
-      <div class="col mb-3">
+      <div class="col mb-3"  data-aos="zoom-in-down" data-aos-duration="1000">
         <div class="category-box">
         <p class="category-header">CNC Related Jobs</p>
         <p class="category-text">10 Active Posts</p>
@@ -123,34 +123,34 @@
       </div>
 
     
-      <div class="col mb-3">
+      <div class="col mb-3"  data-aos="zoom-in-down" data-aos-duration="1000">
         <div class="category-box">
         <p class="category-header">Industrial and Building</p>
         <p class="category-text">10 Active Posts</p>
       </div>
       </div>
       
-      <div class="col mb-3">
+      <div class="col mb-3"  data-aos="zoom-in-down" data-aos-duration="1000">
         <div class="category-box">
         <p class="category-header">Marketing And Sales</p>
         <p class="category-text">10 Active Posts</p>
       </div>
       </div>
-      <div class="col mb-3">
+      <div class="col mb-3"  data-aos="zoom-in-down" data-aos-duration="1000">
         <div class="category-box">
           <p class="category-header">Deals</p>
           <p class="category-text">10 Active Posts</p>
         </div>
       </div>
      
-      <div class="col mb-3">
+      <div class="col mb-3"  data-aos="zoom-in-down" data-aos-duration="1000">
         <div class="category-box">
         <p class="category-header">Accommodation</p>
         <p class="category-text">10 Active Posts</p>
       </div>
       </div>
      
-      <div class="col mb-3">
+      <div class="col mb-3"  data-aos="zoom-in-down" data-aos-duration="1000">
         <div class="category-box">
         <p class="category-header">CNC Related Jobs</p>
         <p class="category-text">10 Active Posts</p>
@@ -158,21 +158,21 @@
       </div>
 
     
-      <div class="col mb-3">
+      <div class="col mb-3"  data-aos="zoom-in-down" data-aos-duration="1000">
         <div class="category-box">
         <p class="category-header">Industrial and Building</p>
         <p class="category-text">10 Active Posts</p>
       </div>
       </div>
 
-      <div class="col mb-3">
+      <div class="col mb-3"  data-aos="zoom-in-down" data-aos-duration="1000">
         <div class="category-box">
         <p class="category-header">Industrial and Building</p>
         <p class="category-text">10 Active Posts</p>
       </div>
       </div>
       
-      <div class="col mb-3">
+      <div class="col mb-3"  data-aos="zoom-in-down" data-aos-duration="1000">
         <div class="category-box">
         <p class="category-header">Marketing And Sales</p>
         <p class="category-text">10 Active Posts</p>
@@ -613,9 +613,7 @@
 </div>
 </section>
 <section>
-  <div class="container">
-
- 
+  <div class="container" data-aos="zoom-in-up" data-aos-duration="5000">
   <div class="pt-5 row">
     <div class="d-md-flex justify-content-center">
     <h3 class="commn-header text-position">

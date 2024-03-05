@@ -1,22 +1,59 @@
 <div class="container p-2">
   <nav class="navbar navbar-expand-lg bg-body-tertiary">
     <div class="container-fluid">
-      <a class="navbar-brand" href="#"> <img src="/assets/logo.png" alt="logo" class="h-10"/></a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+      <a class="navbar-brand" href="#"> <img src="/assets/logo.png" alt="logo" class="h-10" /></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01"
+        aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
-      
+
         <ul class="navbar-nav me-auto mb-2 mb-lg-0 mx-auto">
 
-          <li class="nav-item active dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          <li class="nav-item active dropdown" [ngClass]="{'show': dropshow}" (click)="this.dropshow = !this.dropshow">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown"
+              aria-haspopup="true" aria-expanded="false">
               Solutions
             </a>
-            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-              <a class="dropdown-item" href="#">Action</a>
-              <a class="dropdown-item" href="#">Another action</a>
-              <a class="dropdown-item" href="#">Something else here</a>
+            <div class="dropdown-menu dropdown-menu-left" [ngClass]="{'show': dropshow}"
+              aria-labelledby="navbarDropdownMenuLink">
+              <ul>
+                <li><a class="dropdown-item" href="#">Staffing Solutions</a></li>
+                <li><a class="dropdown-item" href="#"> <p>Smooth associate onboarding, access to the Health&Safety, WHMIS
+                    and other courses</p>
+                  </a></li>
+
+              </ul>
+              <ul>
+                <li><a class="dropdown-item" href="#">Temporary Employment</a></li>
+                <li><a class="dropdown-item" href="#">Temporary employment with cutting-edge technologies and
+                    specialized staffing strategies
+                  </a></li>
+
+              </ul>
+              <ul>
+                <li><a class="dropdown-item" href="#">Job Marketplace</a></li>
+                <li><a class="dropdown-item" href="#">Hire from our database of candidates. We are an AI equipped job
+                    marketplace</a></li>
+              </ul>
+              <ul>
+                <li><a class="dropdown-item" href="#">Temporary to Permanent</a></li>
+                <li><a class="dropdown-item" href="#">Find the suitable candidate for the position and then easily
+                    convert them to a full-time worker.
+                  </a></li>
+              </ul>
+              <ul>
+                <li><a class="dropdown-item" href="#">Vendor Management</a></li>
+                <li><a class="dropdown-item" href="#"> Audit vendor's hiring process anytime and from anyhwhere, manage
+                    discrepancies and view reports
+                  </a></li>
+              </ul>
+              <ul>
+                <li><a class="dropdown-item" href="#">Placement & Fulfillment</a></li>
+                <li><a class="dropdown-item" href="#"> We intelligently compile profile information from applicants to
+                    identify the best match.
+                  </a></li>
+              </ul>
             </div>
           </li>
           <li class="nav-item">
@@ -28,7 +65,7 @@
           <li class="nav-item">
             <a class="nav-link" href="#">Contact</a>
           </li>
-          
+
         </ul>
         <form class="d-flex" role="search">
           <button type="button" class="btn btn-light">Login</button>
