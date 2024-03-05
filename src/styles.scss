@@ -54,8 +54,23 @@ body {
         line-height: 2.25rem !important;
         font-weight: 500 !important;
     }
-    .sec-hed-text {
+    .sec-hed-text, .para-text, .w-40 {
       width: 100% !important;
+    }
+.text-position{
+    text-align: center !important;
+}
+.w-40{
+    text-align: left !important;
+}
+    .commn-subheader{
+        text-align: left !important;
+        font-weight: 600 !important;
+        font-size: 1.25rem !important;
+        line-height: 1.75rem !important;
+    }
+    .img-position{
+        text-align: center !important;
     }
 }
 
