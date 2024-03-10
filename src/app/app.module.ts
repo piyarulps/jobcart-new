@@ -1,4 +1,4 @@
-import { NgModule } from '@angular/core';
+import {  NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
@@ -9,13 +9,23 @@ import { FooterComponent } from './shared/footer/footer.component';
 import { LetsGrowComponent } from './shared/lets-grow/lets-grow.component';
 import { FormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
+import { StaffingSolutionsComponent } from './component/staffing-solutions/staffing-solutions.component';
+import { HomeComponent } from './component/home/home.component';
+import { PricingComponent } from './component/pricing/pricing.component';
+import { ContactComponent } from './component/contact/contact.component';
+import { BlogComponent } from './component/blog/blog.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
     FooterComponent,
-    LetsGrowComponent
+    LetsGrowComponent,
+    StaffingSolutionsComponent,
+    HomeComponent,
+    PricingComponent,
+    ContactComponent,
+    BlogComponent
   ],
   imports: [
     BrowserModule,
@@ -24,6 +34,6 @@ import { HttpClientModule } from '@angular/common/http';
      FormsModule,HttpClientModule,
   ],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
 })
 export class AppModule { }
