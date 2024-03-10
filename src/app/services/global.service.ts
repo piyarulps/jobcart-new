@@ -71,6 +71,14 @@ export class GlobalService {
 
     }
 
-
+    public postHttpData(_url:string, data:any, opts:any){
+     
+      //console.log(data); console.log(opts);
+      var params = JSON.stringify(data);
+      //console.log(params);
+      const headers = opts;
+      return this.http.post( this.API_URL + _url, params, {headers} ).pipe(map( response => response ));
+    
+    }
   
 }
