@@ -1,110 +1,112 @@
-<div class="container p-2">
-  <nav class="navbar navbar-expand-lg bg-body-tertiary">
-    <div class="container-fluid">
-      <a class="navbar-brand" href="#"> <img src="/assets/logo.png" alt="logo" class="h-10" /></a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01"
-        aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
-
-        <ul class="navbar-nav me-auto mb-2 mb-lg-0 mx-auto">
-
-          <li class="nav-item active dropdown" [ngClass]="{'show': dropshow}" (click)="this.dropshow = !this.dropshow">
-            <a class="nav-link dropdown-toggle" href="javascript:void(0)" id="navbarDropdownMenuLink" data-toggle="dropdown"
-              aria-haspopup="true" aria-expanded="false">
-              Solutions
-            </a>
-            <div class="dropdown-menu dropdown-menu-left" [ngClass]="{'show': dropshow}"
-              aria-labelledby="navbarDropdownMenuLink">
-              <div class="row">
-                <div class="col-sm-6">
-                    <a href="staffing-solutions">
-                        <div class="d-flex align-items-center py-3 px-1 rounded-3">
-                            <div class="text ps-3">
-                               Staffing Solutions
-                                <div class="description">Smooth associate onboarding, access to the Health&Safety, WHMIS
-                                  and other courses</div>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-sm-6">
-                    <a  href="temporary-employment" >
-                        <div class="d-flex align-items-center py-3 px-1 rounded-3">
-                           
-                            <div class="text ps-3">
-                               Temporary Employment
-                                <div class="description">Temporary employment with cutting-edge technologies and
-                                  specialized staffing strategies</div>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-sm-6">
-                    <a href="direct-hires" >
-                        <div class="d-flex align-items-center py-3 px-1 rounded-3">
-                          
-                            <div class="text ps-3">
-                               Job Marketplace
-                                <div class="description">Hire from our database of candidates. We are an AI equipped job
-                                  marketplace</div>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-sm-6">
-                    <a  href="temporary-to-permanent">
-                        <div class="d-flex align-items-center py-3 px-1 rounded-3">
-                            <div class="text ps-3">
-                               Temporary to Permanent
-                                <div class="description">Find the suitable candidate for the position and then easily
-                                  convert them to a full-time worker</div>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-sm-6">
-                    <a href="job-order">
-                        <div class="d-flex align-items-center py-3 px-1 rounded-3">
-                            <div class="text ps-3">
-                               Vendor Management
-                                <div class="description">Audit vendor's hiring process anytime and from anyhwhere, manage
-                                  discrepancies and view reports</div>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-sm-6">
-                    <a href="placement-and-fulfillment">
-                        <div class="d-flex align-items-center py-3 px-1 rounded-3">
-                            <div class="text ps-3">
-                               Placement & Fulfillment
-                                <div class="description">We intelligently compile profile information from applicants to
-                                  identify the best match</div>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-            </div>
-            </div>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="Pricing"> Pricing</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="blog">Blog</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="contact-us">Contact</a>
-          </li>
-
-        </ul>
-        <form class="d-flex" role="search">
-          <button type="button" class="btn btn-light" (click)="openURl('auth/sign-in')">Login</button>
-          <button type="button" class="btn btn-success ms-3" (click)="openURl('auth/sign-up/employer')">Sign up</button>
-        </form>
+<div style="border-bottom: 1px solid black;">
+  <div class="container p-2">
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#"> <img src="/assets/logo.png" alt="logo" class="h-10" /></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01"
+          aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+  
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0 mx-auto">
+  
+            <li class="nav-item active dropdown" [ngClass]="{'show': dropshow}" (click)="this.dropshow = !this.dropshow">
+              <a class="nav-link dropdown-toggle" href="javascript:void(0)" id="navbarDropdownMenuLink" data-toggle="dropdown"
+                aria-haspopup="true" aria-expanded="false">
+                Solutions
+              </a>
+              <div class="dropdown-menu dropdown-menu-left" [ngClass]="{'show': dropshow}"
+                aria-labelledby="navbarDropdownMenuLink">
+                <div class="row">
+                  <div class="col-sm-6">
+                      <a href="staffing-solutions">
+                          <div class="d-flex align-items-center py-3 px-1 rounded-3">
+                              <div class="text ps-3">
+                                 Staffing Solutions
+                                  <div class="description">Smooth associate onboarding, access to the Health&Safety, WHMIS
+                                    and other courses</div>
+                              </div>
+                          </div>
+                      </a>
+                  </div>
+                  <div class="col-sm-6">
+                      <a  href="temporary-employment" >
+                          <div class="d-flex align-items-center py-3 px-1 rounded-3">
+                             
+                              <div class="text ps-3">
+                                 Temporary Employment
+                                  <div class="description">Temporary employment with cutting-edge technologies and
+                                    specialized staffing strategies</div>
+                              </div>
+                          </div>
+                      </a>
+                  </div>
+                  <div class="col-sm-6">
+                      <a href="direct-hires" >
+                          <div class="d-flex align-items-center py-3 px-1 rounded-3">
+                            
+                              <div class="text ps-3">
+                                 Job Marketplace
+                                  <div class="description">Hire from our database of candidates. We are an AI equipped job
+                                    marketplace</div>
+                              </div>
+                          </div>
+                      </a>
+                  </div>
+                  <div class="col-sm-6">
+                      <a  href="temporary-to-permanent">
+                          <div class="d-flex align-items-center py-3 px-1 rounded-3">
+                              <div class="text ps-3">
+                                 Temporary to Permanent
+                                  <div class="description">Find the suitable candidate for the position and then easily
+                                    convert them to a full-time worker</div>
+                              </div>
+                          </div>
+                      </a>
+                  </div>
+                  <div class="col-sm-6">
+                      <a href="job-order">
+                          <div class="d-flex align-items-center py-3 px-1 rounded-3">
+                              <div class="text ps-3">
+                                 Vendor Management
+                                  <div class="description">Audit vendor's hiring process anytime and from anyhwhere, manage
+                                    discrepancies and view reports</div>
+                              </div>
+                          </div>
+                      </a>
+                  </div>
+                  <div class="col-sm-6">
+                      <a href="placement-and-fulfillment">
+                          <div class="d-flex align-items-center py-3 px-1 rounded-3">
+                              <div class="text ps-3">
+                                 Placement & Fulfillment
+                                  <div class="description">We intelligently compile profile information from applicants to
+                                    identify the best match</div>
+                              </div>
+                          </div>
+                      </a>
+                  </div>
+              </div>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="Pricing"> Pricing</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="blog">Blog</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact-us">Contact</a>
+            </li>
+  
+          </ul>
+          <form class="d-flex" role="search">
+            <button type="button" class="btn btn-light" (click)="openURl('auth/sign-in')">Login</button>
+            <button type="button" class="btn btn-success ms-3" (click)="openURl('auth/sign-up/employer')">Sign up</button>
+          </form>
+        </div>
       </div>
-    </div>
-  </nav>
+    </nav>
+  </div>
 </div>
