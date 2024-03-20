@@ -20,6 +20,8 @@ import { PlacementAndFulfillmentComponent } from './component/placement-and-fulf
 import { TemporaryToPermanentComponent } from './component/temporary-to-permanent/temporary-to-permanent.component';
 import { DirectHiresComponent } from './component/direct-hires/direct-hires.component';
 import { JobOrderComponent } from './component/job-order/job-order.component';
+import { PolicyPrivacyComponent } from './component/policy-privacy/policy-privacy.component';
+import { PolicyCookieComponent } from './component/policy-cookie/policy-cookie.component';
 
 @NgModule({
   declarations: [
@@ -37,7 +39,9 @@ import { JobOrderComponent } from './component/job-order/job-order.component';
     PlacementAndFulfillmentComponent,
     TemporaryToPermanentComponent,
     DirectHiresComponent,
-    JobOrderComponent
+    JobOrderComponent,
+    PolicyPrivacyComponent,
+    PolicyCookieComponent
   ],
   imports: [
     BrowserModule,
