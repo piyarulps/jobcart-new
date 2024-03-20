@@ -28,3 +28,27 @@
     margin-bottom: 1.25rem;
 
 }
+a.btn.btn-outline-secondary.text-danger.pricing-btn.text-capitalize:hover {
+    color: white !important;
+    --bs-bg-opacity: 1;
+    background-color: rgba(220, 53, 69, 1) !important;
+}
+a.btn.btn-outline-secondary.text-danger.pricing-btn.text-capitalize, a.btn.btn-outline-secondary.text-white.pricing-btn.bg-danger.text-capitalize {
+    font-weight: 600;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    text-align: center;
+    padding: 1rem;
+    border: 1px solid red;
+    border-radius: 0.375rem;
+    width: 100%;
+    margin-bottom: 0;
+}
+.svg-position{
+    position: absolute;
+    left: 92%;
+    right: auto;
+    bottom: auto;
+    top: 12%;
+    transform: translate(-50%, -50%);
+}
