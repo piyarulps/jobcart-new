@@ -1,0 +1,30 @@
+.pricing-wrap{
+    padding-top: 50px;
+    padding-bottom: 90px;
+}
+.pricing-header{
+    font-size: 40px;
+    line-height: 2.5rem;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 1rem;
+    --tw-text-opacity: 1;
+    color: hsl(var(--n) / 1);
+}
+.pricing-card-header{
+    font-weight: 600;
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+    margin-bottom: 1rem;
+
+}
+.pricing-card-wrap{
+    border: 1px solid black;
+    border-radius: 0.75rem;
+}
+.pricing-amt{
+    font-weight: 700;
+    font-size: 42px;
+    margin-bottom: 1.25rem;
+
+}
