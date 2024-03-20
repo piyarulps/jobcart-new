@@ -1,58 +1,80 @@
 <div class="container">
-    <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
-      <div class="col">
-        <div class="card">
-          <div class="card-image-wrapper">
-            <img src="assets/blog_1.jpg" class="card-img-top img-fluid" alt="...">
-          </div>
-          <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">Some quick example text to build on  the card title and make up the bulk of the card's content.</p>
-            <a href="#" class="link">Go somewhere <i class="fa-solid fa-arrow-right ml-2"></i></a>
-          </div>
+  <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+    <div class="col" *ngFor="let blog of blogList">
+      <div class="card">
+        <div class="card-image-wrapper">
+          <img [src]="blog.blogImgFullPath" *ngIf="blog.blogImgFullPath!=''" [routerLink]="'/blog/' + blog.blogId"
+            style="cursor:pointer;" class="card-img-top img-fluid" alt="...">
+        </div>
+        <div class="card-body">
+          <h5 class="card-title"> {{ blog.blogTitle }}</h5>
+          <p class="card-text">{{ blog.blogSummary }}</p>
+          <a href="#" class="link">Learn More <i class="fa-solid fa-arrow-right ml-2"></i></a>
         </div>
       </div>
-      
-      <div class="col">
-        <div class="card">
-          <div class="card-image-wrapper">
-            <img src="assets/blog_1.jpg" class="card-img-top img-fluid" alt="...">
-          </div>
-          
-          <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            <a href="#" class="link">Go somewhere <i class="fa-solid fa-arrow-right ml-2"></i></a>
-          </div>
+    </div>
+
+    <div class="col">
+      <div class="card">
+        <div class="card-image-wrapper">
+          <img src="assets/blog_1.jpg" class="card-img-top img-fluid" alt="...">
+        </div>
+
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">Since the epidemic compelled us to hide behind our computers, most corporate processes
+            have been digitalized in the last year. Despite how long it takes, the recruitment process doesn't have to
+            eat up all of your work weeks. Is this the answer? One platform for staffing..</p>
+          <a href="#" class="link">Learn More <i class="fa-solid fa-arrow-right ml-2"></i></a>
         </div>
       </div>
-      
-      <div class="col">
-        <div class="card">
-          <div class="card-image-wrapper">
-            <img src="assets/blog_1.jpg" class="card-img-top img-fluid" alt="...">
-          </div>
-          
-          <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            <a href="#" class="link">Go somewhere <i class="fa-solid fa-arrow-right ml-2"></i></a>
-          </div>
+    </div>
+    <div class="col">
+      <div class="card">
+        <div class="card-image-wrapper">
+          <img src="assets/blog_3.jpg" class="card-img-top img-fluid" alt="...">
+        </div>
+
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">Since the epidemic compelled us to hide behind our computers, most corporate processes
+            have been digitalized in the last year. Despite how long it takes, the recruitment process doesn't have to
+            eat up all of your work weeks. Is this the answer? One platform for staffing.</p>
+          <a href="#" class="link">Learn More <i class="fa-solid fa-arrow-right ml-2"></i></a>
         </div>
       </div>
-      
-      <div class="col">
-        <div class="card">
-          <div class="card-image-wrapper">
-            <img src="assets/blog_1.jpg" class="card-img-top img-fluid" alt="...">
-          </div>
-          
-          <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            <a href="#" class="link">Go somewhere <i class="fa-solid fa-arrow-right ml-2"></i></a>
-          </div>
+    </div>
+
+    <div class="col">
+      <div class="card">
+        <div class="card-image-wrapper">
+          <img src="assets/blog2.jpg" class="card-img-top img-fluid" alt="...">
+        </div>
+
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">Since the epidemic compelled us to hide behind our computers, most corporate processes
+            have been digitalized in the last year. Despite how long it takes, the recruitment process doesn't have to
+            eat up all of your work weeks. Is this the answer? One platform for staffing.</p>
+          <a href="#" class="link">Learn More <i class="fa-solid fa-arrow-right ml-2"></i></a>
+        </div>
+      </div>
+    </div>
+
+    <div class="col">
+      <div class="card">
+        <div class="card-image-wrapper">
+          <img src="assets/blog_1.jpg" class="card-img-top img-fluid" alt="...">
+        </div>
+
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">Since the epidemic compelled us to hide behind our computers, most corporate processes
+            have been digitalized in the last year. Despite how long it takes, the recruitment process doesn't have to
+            eat up all of your work weeks. Is this the answer? One platform for staffing.</p>
+          <a href="#" class="link">Learn More <i class="fa-solid fa-arrow-right ml-2"></i></a>
         </div>
       </div>
     </div>
   </div>
+</div>
