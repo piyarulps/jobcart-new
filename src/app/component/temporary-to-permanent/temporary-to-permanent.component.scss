@@ -59,3 +59,26 @@ a.btn.btn-outline-secondary {
     margin-bottom: 0.5rem;
 
 }
+.pt-pb-6{
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+    margin-top: 2.5rem;
+    margin-bottom: 2.5rem
+}
+.temp-to-perm-stffinng-text-head{
+    font-size: 1.875rem;
+    line-height: 2.25rem;
+    font-weight: 600;
+    --tw-text-opacity: 1;
+    color: rgb(55 65 81 / var(--tw-text-opacity));
+}
+.temp-to-perm-stffinng-text{
+    margin-top: 1.25rem;
+    margin-bottom: 1.25rem;
+    --tw-text-opacity: 1;
+    color: rgb(156 163 175 / var(--tw-text-opacity));
+}
+.bg-clr-temp-to-perm-stffinng{
+    --tw-bg-opacity: 1;
+    background-color: rgb(254 242 242 / var(--tw-bg-opacity));
+}
